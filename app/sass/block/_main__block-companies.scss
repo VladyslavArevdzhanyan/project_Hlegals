@@ -1,0 +1,62 @@
+.main__block-companies {
+    padding-top: 100px;
+    &-h2 {
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #323264;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    &-examples {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        &-list {
+            width: 50%;
+            &-img {
+                display: block;
+                margin: 0 auto;
+            }
+            &-block-1 {
+                background-color: #1C4280;
+            }
+            &-block-2 {
+                background-color: #143646;
+            }
+            &-block-3 {
+                background-color: #F48B30;
+            }
+            &-block-4 {
+                background-color: #9E4DC3;
+            }
+            &-block-5 {
+                background-color: #FD9339;
+            }
+            &-block-6 {
+                background-color: #E2E2E4;
+            }
+            &-block-7 {
+                background-color: #C71C36;
+            }
+            &-block-8 {
+                background-color: #DCF3F9;
+            }
+            &-block-9 {
+                background-color: #EAEAEA;
+            }
+            &-block-10 {
+                background-color: #282240;
+            }
+            &-block-11 {
+                background-color: #1D4568;
+            }
+            &-block-12 {
+                background-color: #000000;
+            }
+        }
+    }
+}

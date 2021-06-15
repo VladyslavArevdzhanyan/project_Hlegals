@@ -732,7 +732,6 @@ body {
 
 .main__block-examples {
   padding-top: 30px;
-  padding-bottom: 100px;
 }
 
 .main__block-examples-links {
@@ -818,6 +817,92 @@ body {
   .main__block-examples-link:last-child {
     border-radius: 0px 0px 12px 0px;
   }
+}
+
+.main__block-companies {
+  padding-top: 100px;
+}
+
+.main__block-companies-h2 {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #323264;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.main__block-companies-examples {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main__block-companies-examples-list {
+  width: 50%;
+}
+
+.main__block-companies-examples-list-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.main__block-companies-examples-list-block-1 {
+  background-color: #1C4280;
+}
+
+.main__block-companies-examples-list-block-2 {
+  background-color: #143646;
+}
+
+.main__block-companies-examples-list-block-3 {
+  background-color: #F48B30;
+}
+
+.main__block-companies-examples-list-block-4 {
+  background-color: #9E4DC3;
+}
+
+.main__block-companies-examples-list-block-5 {
+  background-color: #FD9339;
+}
+
+.main__block-companies-examples-list-block-6 {
+  background-color: #E2E2E4;
+}
+
+.main__block-companies-examples-list-block-7 {
+  background-color: #C71C36;
+}
+
+.main__block-companies-examples-list-block-8 {
+  background-color: #DCF3F9;
+}
+
+.main__block-companies-examples-list-block-9 {
+  background-color: #EAEAEA;
+}
+
+.main__block-companies-examples-list-block-10 {
+  background-color: #282240;
+}
+
+.main__block-companies-examples-list-block-11 {
+  background-color: #1D4568;
+}
+
+.main__block-companies-examples-list-block-12 {
+  background-color: #000000;
 }
 
 /*# sourceMappingURL=style.css.map */
