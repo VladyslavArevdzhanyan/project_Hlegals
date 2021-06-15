@@ -905,4 +905,16 @@ body {
   background-color: #000000;
 }
 
+@media (min-width: 767px) {
+  .main__block-companies-examples-list {
+    width: 33.333%;
+  }
+}
+
+@media (min-width: 991px) {
+  .main__block-companies-examples-list {
+    width: 25%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
