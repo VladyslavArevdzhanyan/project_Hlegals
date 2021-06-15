@@ -1,0 +1,122 @@
+.main__block-team-slider-block {
+    background: #F5F5FA;
+    border-radius: 12px;
+    margin: 40px 0 15px;
+    padding: 20px 0 20px 20px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto auto;
+    &-link {
+        grid-column: 1 / -1;
+        display: flex;
+        align-items: center;
+        padding-bottom: 5px;
+        &-a {
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #24A3FF;
+            &:hover {
+                color:#F0145A;
+            }
+        }
+        &:hover .main__block-team-slider-link-svg path {
+            stroke: #F0145A;
+        }
+    }
+    &-text {
+        grid-column: 1 / -1;
+        &-p {
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 38px;
+            color: #F0145A;
+        }
+    }
+    &-buttons {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    &-button {
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background: #24A3FF;
+        opacity: 0.2;
+        border: none;
+        cursor: pointer;
+        margin: 0 7px;
+        &.active {
+            background: #24A3FF;
+            opacity: 1;
+        } 
+    }
+    &-person {
+        padding-top: 10px;
+        &-img-large {
+            display: none;
+        }
+        &-about {
+            padding: 15px 0 0 10px;
+            &-h3 {
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 21px;
+                color: #B3B3BA;
+            }
+            &-p {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 22px;
+                color: #B3B3BA;
+            }
+        }
+    }
+    
+}
+
+@media (min-width: 767px) {
+
+    .main__block-team-slider-block {
+        grid-template-columns: auto 1fr;
+        grid-template-rows: auto auto 1fr;
+        column-gap: 40px;
+        padding: 0;
+    }
+
+    .main__block-team-slider-block-link {
+        grid-column: 2 / 3;
+        padding-top: 40px;
+    }
+
+    .main__block-team-slider-block-text {
+        grid-column: 2 / 3;
+    }
+
+    .main__block-team-slider-block-person-about {
+        grid-column: 2 / 3;  
+    }
+
+    .main__block-team-slider-block-person {
+        grid-column: 1 / 2;
+        grid-row: 1 / 4;
+        padding-top: 0;
+        &-img-large {
+            display: block;
+            padding-top: 0;
+            border-radius: 12px 0px 0px 12px;
+            max-width: 100%;
+        }
+        &-img-little {
+            display: none;
+        }
+        &-about {
+            padding-left: 0;
+        }
+    }
+}
