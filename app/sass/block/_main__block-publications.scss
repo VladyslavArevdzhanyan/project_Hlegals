@@ -1,5 +1,6 @@
 .main__block-publications {
     padding-top: 40px;
+    background: #F5F5FA;
     &-link {
         display: flex;
         align-items: center;
@@ -25,4 +26,97 @@
         line-height: 38px;
         color: #F0145A;
     }
+    &-examples {
+        padding-top: 40px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+        row-gap: 30px;
+        &-sample {
+            background: white;
+            border-radius: 8px;
+            &-1-img {
+                border-radius: 8px 8px 0px 0px;
+                width: 100%;
+                
+            }
+            &-2 {
+                padding: 20px;
+                &-link {
+                    text-decoration: none;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: #24A3FF;
+                }
+                &-p {
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 14px;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                    color: #B3B3BA;
+                    padding-top: 10px;
+                    text-transform: uppercase;
+                }
+            }
+            &-3 {
+                padding: 0 20px 20px 20px;
+                display: none;
+                &-p {
+                    border-top: 4px solid #E6E6F0;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 22px;
+                    color: #000000;
+                    padding-top: 20px;
+                }
+            }
+            &-block-3, &-block-4, &-block-5, &-block-6 {
+                display: none;
+            }
+        } 
+    }
+
+    &-button {
+        text-align: center;
+    }
+
+    &-btn {
+        background: #24A3FF;
+        box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+        border-radius: 12px;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #FFFFFF;
+        border: none;
+        margin: 40px 0;
+        padding: 17px 75px;
+    }
 }
+
+@media (min-width: 767px) {
+    .main__block-publications-examples {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        column-gap: 40px;
+        row-gap: 40px;
+        &-sample-3 {
+            display:block;
+        }
+        &-sample-block-3, &-sample-block-4, &-sample-block-5, &-sample-block-6 {
+            display: block;                                                                 
+        }
+    }
+}
+
+@media (min-width: 991px) {
+    .main__block-publications-examples {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
