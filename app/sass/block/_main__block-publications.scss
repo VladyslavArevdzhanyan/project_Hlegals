@@ -1,0 +1,28 @@
+.main__block-publications {
+    padding-top: 40px;
+    &-link {
+        display: flex;
+        align-items: center;
+        &-a {
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #24A3FF;
+            &:hover {
+                color:#F0145A;
+            }
+        }
+        &:hover .main__block-publications-link-svg path {
+            stroke: #F0145A;
+        }
+    }
+    &-p {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+        color: #F0145A;
+    }
+}
