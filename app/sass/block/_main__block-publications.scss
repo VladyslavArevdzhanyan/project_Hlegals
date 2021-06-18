@@ -49,6 +49,9 @@
                     font-size: 18px;
                     line-height: 21px;
                     color: #24A3FF;
+                    &:hover {
+                        color: #F0145A;
+                    }
                 }
                 &-p {
                     font-weight: 700;
