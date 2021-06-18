@@ -48,6 +48,9 @@
             align-items: center;
             color: #24A3FF;
             padding-left: 10px;
+            &:hover {
+                color: #F0145A;
+            }
         }
         &-block-2-p {
             font-size: 16px;

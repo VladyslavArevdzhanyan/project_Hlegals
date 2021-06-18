@@ -258,6 +258,7 @@ body {
   .header__top-adress-block {
     display: block;
     padding-right: 30px;
+    color: #FFFFFF;
   }
   .header__top-link-fb-block {
     display: block;
@@ -280,6 +281,12 @@ body {
   }
   .header__top-languages {
     padding-right: 30px;
+  }
+  .header__top-language-btn {
+    color: #FFFFFF;
+  }
+  .header__top-phone {
+    color: #FFFFFF;
   }
   .header__top-phone-block {
     padding-right: 30px;
@@ -500,6 +507,11 @@ body {
   margin: 0 7px;
 }
 
+.main__block-slider-button:hover {
+  background: #24A3FF;
+  opacity: 1;
+}
+
 .main__block-slider-button.active {
   background: #24A3FF;
   opacity: 1;
@@ -576,6 +588,10 @@ body {
           align-items: center;
   color: #24A3FF;
   padding-left: 10px;
+}
+
+.main__block-about-us-block-1-a:hover {
+  color: #F0145A;
 }
 
 .main__block-about-us-block-2-p {
@@ -659,6 +675,11 @@ body {
   border: none;
   cursor: pointer;
   margin: 0 7px;
+}
+
+.main__block-team-slider-block-button:hover {
+  background: #24A3FF;
+  opacity: 1;
 }
 
 .main__block-team-slider-block-button.active {
@@ -1063,6 +1084,94 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
+}
+
+.footer {
+  background-color: #F5F5FA;
+  text-align: center;
+}
+
+.footer__menu {
+  border-top: 4px solid #E6E6F0;
+  padding-top: 20px;
+}
+
+.footer__menu-adress-p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #323264;
+  padding-bottom: 10px;
+}
+
+.footer__menu-adress-link {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24A3FF;
+  text-transform: uppercase;
+}
+
+.footer__menu-adress-link:hover {
+  color: #F0145A;
+}
+
+.footer__menu-contacts-svg {
+  margin-bottom: 20px;
+}
+
+.footer__menu-contacts-svg:hover path {
+  fill: #F0145A;
+}
+
+.footer__menu-contacts-phone {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #46466E;
+  margin-bottom: 20px;
+}
+
+.footer__menu-contacts-phone:hover {
+  color: #F0145A;
+}
+
+.footer__menu-contacts-email {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #24A3FF;
+  margin-bottom: 20px;
+}
+
+.footer__menu-contacts-email:hover {
+  color: #F0145A;
+}
+
+.footer__menu-rights-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #B3B3BA;
+  max-width: 335px;
+  margin: 0 auto;
+}
+
+.footer__menu-contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
