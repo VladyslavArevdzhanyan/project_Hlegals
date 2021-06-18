@@ -172,8 +172,10 @@
 
                         
                         <div class="main__block-team-slider-block-person">
-                            <img class="main__block-team-slider-block-person-img-little" src="../img/man-little.jpg" alt="man-little.png" >
-                            <img class="main__block-team-slider-block-person-img-large" src="../img/man.png" alt="man-large.png" >
+                            <picture>
+                                <source media="(min-width: 767px)" srcset="../img/man.jpg 1x, ../img/man@2x.jpg 2x"> 
+                                <img class="main__block-team-slider-block-person-img" src="../img/man-little.png" srcset="../img/man-little@2x.png 2x" alt="man">
+                            </picture>
                         </div>
                             
                             

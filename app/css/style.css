@@ -670,8 +670,9 @@ body {
   padding-top: 10px;
 }
 
-.main__block-team-slider-block-person-img-large {
-  display: none;
+.main__block-team-slider-block-person-img {
+  max-width: 100%;
+  height: 100%;
 }
 
 .main__block-team-slider-block-person-about {
@@ -1033,6 +1034,11 @@ body {
   border: none;
   margin: 40px 0;
   padding: 17px 75px;
+  cursor: pointer;
+}
+
+.main__block-publications-btn:hover {
+  background: #0085FF;
 }
 
 @media (min-width: 767px) {
