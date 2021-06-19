@@ -1,5 +1,10 @@
 .header__mobile-menu {
+    display: none;
     background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 200;
     &-items {
         background: #F5F5FA;
         &-link {
@@ -43,9 +48,14 @@
                 &:hover .header__mobile-menu-items-block-btn-svg path {
                     stroke: black;
                 }
-            }
-            
+            }  
         }
     }
 }
 
+
+@media (min-width: 767px) {
+    .header__mobile-menu {
+        display: none;
+    }
+}
