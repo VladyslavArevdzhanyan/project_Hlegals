@@ -1,33 +1,33 @@
 .header__mobile-menu {
     display: none;
-    background-color: #FFFFFF;
+    background-color: var(--white);
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 200;
     &-items {
-        background: #F5F5FA;
+        background: var(--white4);
         &-link {
             text-decoration: none;
             font-weight: 500;
             font-size: 24px;
             line-height: 28px;
             text-align: center;
-            color: #24A3FF;
+            color: var(--blue);
             padding-top: 11px;
             padding-bottom: 15px;
             display: block;
-            border: 1px solid #FFFFFF;
+            border: 1px solid var(--white);
             &.active-link {
-                background: #EDEDF7;
+                background: var(--white3);
             }
             &:hover {
-                color: #F0145A;
-                background: #EDEDF7;
+                color: var(--red);
+                background: var(--white3);
             }
         }
         &-block {
-            background-color: #FFFFFF;
+            background-color: var(--white);
             background-image: url(../img/alternative-menu-logo.png);
             background-repeat: no-repeat;
             background-position: center center;
@@ -41,12 +41,12 @@
                 border: none;
                 cursor: pointer;
                 &.active-btn {
-                    background: #EDEDF7;
+                    background: var(--white3);
                     border-radius: 12px;
                     height: 33px;
                 }
                 &:hover .header__mobile-menu-items-block-btn-svg path {
-                    stroke: black;
+                    stroke: var(--black);
                 }
             }  
         }

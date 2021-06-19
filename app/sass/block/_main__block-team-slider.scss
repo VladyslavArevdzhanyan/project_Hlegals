@@ -1,5 +1,5 @@
 .main__block-team-slider-block {
-    background: #F5F5FA;
+    background: var(--white4);
     border-radius: 12px;
     margin: 40px 0 15px;
     padding: 20px 0 20px 20px;
@@ -18,13 +18,13 @@
             line-height: 17px;
             letter-spacing: 1px;
             text-transform: uppercase;
-            color: #24A3FF;
+            color: var(--blue);
             &:hover {
-                color:#F0145A;
+                color:var(--red);
             }
         }
         &:hover .main__block-team-slider-block-link-svg path {
-            stroke: #F0145A;
+            stroke: var(--red);
         }
     }
     &-text {
@@ -33,7 +33,7 @@
             font-weight: 700;
             font-size: 32px;
             line-height: 38px;
-            color: #F0145A;
+            color: var(--red);
         }
     }
     &-buttons {
@@ -46,17 +46,17 @@
         width: 16px;
         height: 16px;
         border-radius: 50%;
-        background: #24A3FF;
+        background: var(--blue);
         opacity: 0.2;
         border: none;
         cursor: pointer;
         margin: 0 7px;
         &:hover {
-            background: #24A3FF;
+            background: var(--blue);
             opacity: 1;
         }
         &.active {
-            background: #24A3FF;
+            background: var(--blue);
             opacity: 1;
         } 
     }
@@ -72,13 +72,13 @@
                 font-weight: 500;
                 font-size: 18px;
                 line-height: 21px;
-                color: #B3B3BA;
+                color: var(--grey);
             }
             &-p {
                 font-weight: 400;
                 font-size: 16px;
                 line-height: 22px;
-                color: #B3B3BA;
+                color: var(--grey);
             }
         }
     }

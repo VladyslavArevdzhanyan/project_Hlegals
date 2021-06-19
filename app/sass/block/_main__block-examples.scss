@@ -8,8 +8,8 @@
     &-link {
         text-decoration: none;
         display: block;
-        background: #F5F5FA;
-        border: 1px solid #FFFFFF;
+        background: var(--white4);
+        border: 1px solid var(--white);
         padding: 20px;
         &:first-child {
             border-radius: 12px 12px 0px 0px;
@@ -18,19 +18,19 @@
             border-radius: 0px 0px 12px 12px;
         }
         &:hover {
-            background: #EDEDF7;
+            background: var(--white3);
         }
         &-h3 {
             font-weight: 500;
             font-size: 18px;
             line-height: 21px;
-            color: #686887;
+            color: var(--darkblue3);
         }
         &-p {
             font-weight: 400;
             font-size: 18px;
             line-height: 26px;
-            color: #B3B3BA;
+            color: var(--grey);
             padding-top: 10px;
         }
     } 

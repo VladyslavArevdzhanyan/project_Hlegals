@@ -2,9 +2,9 @@
     background-image: url(../img/text-p.svg);
     background-repeat: no-repeat;
     background-position: center top;
-    box-shadow: 0px -100px 20px -25px rgba(50, 50, 100, 0.9) inset;
+    box-shadow: 0px -100px 20px -25px var(--darkblue2) inset;
     max-width: 375px;
-    height: 436px   ;
+    height: 436px;
     margin: 0 auto;
     margin-top: 100px;
     position: relative;
@@ -13,9 +13,9 @@
         font-size: 38px;
         line-height: 45px;
         text-align: center;
-        color: #FFFFFF;
+        color: var(--white);
         max-width: 374px;
-        padding-top: 37px;
+        padding-top: 43px;
         margin: 0 auto;
     }
     &-btn {
@@ -23,7 +23,7 @@
         height: 42px;
         border-radius: 50%;
         background-color: transparent;
-        border: 1px solid #FFFFFF;
+        border: 1px solid var(--white);
         opacity: 0.5;
         position: absolute;
         padding-top: 15px;
@@ -32,10 +32,10 @@
         left: 45%;
         position: absolute;
         &:hover {
-            background-color: white;
+            background-color: var(--white);
         }
         &:hover .header__bottom-btn-svg path{
-            stroke: black;
+            stroke: var(--black);
         }
         &:hover .header__bottom-btn-svg {
             transform: translateY(7px);
@@ -49,17 +49,17 @@
         background-image: url(../img/text-p-2.svg), url(../img/background-image.svg);
         background-repeat: no-repeat;
         background-position: center center;
-        box-shadow: 0px -200px 20px -25px rgba(50, 50, 100, 0.5) inset;
+        box-shadow: 0px -200px 20px -25px var(--darkblue) inset;
         max-width: 689px;
         height: 644px   ;
         margin: 0 auto;
         margin-top: 100px;
         &-title {
             max-width: 450px;
-            padding-top: 125px;
+            padding-top: 147px;
         }
         &-btn {
-            bottom: 100px;
+            bottom: 76px;
         }
     }
 }

@@ -1,10 +1,10 @@
 .main__block-about {
-    padding-top: 45px;
+    padding-top: 43px;
     &-title-link {
         display: flex;
         align-items: center;
         &:hover .main__block-about-title-svg path{
-            stroke: #F0145A;
+            stroke: var(--red);
         }
         &:hover .main__block-about-title-svg g {
             opacity: 1;
@@ -15,12 +15,12 @@
             line-height: 17px;
             letter-spacing: 1px;
             text-transform: uppercase;
-            color: #FFFFFF;
+            color: var(--white);
             opacity: 0.5;
             text-transform: uppercase;
             padding-right: 2px;
             &:hover {
-                color: #F0145A;
+                color: var(--red);
                 opacity: 1;
             }
         }
@@ -28,7 +28,7 @@
     &-h2 {
         font-size: 32px;
         line-height: 38px;
-        color: #F0145A;
+        color: var(--red);
         padding-top: 5px;
     }
     &-us {
@@ -46,20 +46,54 @@
             font-size: 18px;
             line-height: 21px;
             align-items: center;
-            color: #24A3FF;
+            color: var(--blue);
             padding-left: 10px;
             &:hover {
-                color: #F0145A;
+                color: var(--red);
             }
         }
         &-block-2-p {
             font-size: 16px;
             line-height: 22px;
-            color: #FFFFFF;
+            color: var(--white);
             padding-top: 10px;
         }
     }
     &-slider-2 {
         padding-top: 40px;
     } 
+}
+
+@media (min-width: 767px) {
+    .main__block-about-us {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        column-gap: 50px;
+        &-block-1 {
+            flex-direction: column;
+            align-items: flex-start;
+            &-a {
+                padding-left: 0;
+                padding-top: 20px;
+                padding-bottom: 5px;
+                max-width: 300px;
+            }
+        }
+        &-block-2-p {
+            max-width: 367px;
+        }
+    }
+    .main-block-about-h2 {
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 50px;
+    }
+    
+}
+
+@media (min-width: 991px) {
+    .main__block-about-us {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
 }

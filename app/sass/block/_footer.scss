@@ -1,15 +1,15 @@
 .footer {
-    background-color: #F5F5FA;
+    background-color: var(--white4);
     text-align: center;
     &__menu {
-        border-top: 4px solid #E6E6F0;
+        border-top: 4px solid var(--white2);
         padding-top: 20px;
         padding-bottom: 120px;
         &-adress-p {
             font-weight: 700;
             font-size: 16px;
             line-height: 19px;
-            color: #323264;
+            color: var(--gradient);
             padding-bottom: 10px;
         }
         &-adress-link {
@@ -19,10 +19,10 @@
             line-height: 14px;
             letter-spacing: 1px;
             text-transform: uppercase;
-            color: #24A3FF;
+            color: var(--blue);
             text-transform: uppercase;
             &:hover {
-                color: #F0145A;
+                color: var(--red);
             }
             
         }
@@ -30,17 +30,17 @@
             margin-bottom: 20px;
         }
         &-contacts-svg:hover path {
-                fill: #F0145A;
+                fill: var(--red);
         }
         
         &-contacts-phone {
             font-weight: 700;
             font-size: 16px;
             line-height: 19px;
-            color: #46466E;
+            color: var(--darkblue5);
             margin-bottom: 20px;
             &:hover {
-                color: #F0145A;
+                color: var(--red);
             }
             
         }
@@ -48,17 +48,17 @@
             font-weight: 700;
             font-size: 16px;
             line-height: 19px;
-            color: #24A3FF;
+            color: var(--blue);
             margin-bottom: 20px;
             &:hover {
-                color: #F0145A;
+                color: var(--red);
             }
         }
         &-rights-text {
             font-weight: 500;
             font-size: 16px;
             line-height: 19px;
-            color: #B3B3BA;
+            color: var(--grey);
             max-width: 335px;
             margin: 0 auto;
         }
@@ -86,7 +86,7 @@
                 width: 6px;
                 height: 6px;
                 border-radius: 50%;
-                background-color: #B3B3BA;
+                background-color: var(--grey);
                 right: 10px;
                 top: 6px;
             }
@@ -106,7 +106,7 @@
                 width: 6px;
                 height: 6px;
                 border-radius: 50%;
-                background-color: #B3B3BA;
+                background-color: var(--grey);
                 right: 10px;
                 top: 7px;
             }
@@ -116,7 +116,7 @@
                 width: 6px;
                 height: 6px;
                 border-radius: 50%;
-                background-color: #B3B3BA;
+                background-color: var(--grey);
                 left: 9px;
                 top: 7px;
             }

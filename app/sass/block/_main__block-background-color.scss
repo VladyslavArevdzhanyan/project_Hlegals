@@ -1,12 +1,12 @@
 .main__block-background-color {
-    background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+    background: linear-gradient(228.57deg, var(--gradient) 11.93%, var(--gradient) 57.17%, var(--gradient2) 87.46%);
     border-radius: 0px 0px 12px 12px;
     padding-bottom: 20px;
     position: relative;
     &::after {
         content: "";
         position: absolute;
-        background: #CACADB;
+        background: var(--grey2);
         width: calc(100% - 40px);
         height: 10px;
         border-radius: 0px 0px 12px 12px;
@@ -16,7 +16,7 @@
     &::before {
         content: "";
         position: absolute;
-        background: #E7E7F2;
+        background: var(--white5);
         width: calc(100% - 80px);
         height: 10px;
         border-radius: 0px 0px 12px 12px;
