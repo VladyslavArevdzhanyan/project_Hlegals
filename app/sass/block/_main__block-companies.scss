@@ -20,6 +20,12 @@
             &-img {
                 display: block;
                 margin: 0 auto;
+                object-fit: cover;
+                max-width: 100%;
+                &-large {
+                    display: none;
+                    margin: 0 auto;
+                }
             }
             &-block-1 {
                 background-color: var(--blockbackground1);

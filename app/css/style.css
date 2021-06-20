@@ -1154,6 +1154,14 @@ body {
 .main__block-companies-examples-list-img {
   display: block;
   margin: 0 auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 100%;
+}
+
+.main__block-companies-examples-list-img-large {
+  display: none;
+  margin: 0 auto;
 }
 
 .main__block-companies-examples-list-block-1 {
