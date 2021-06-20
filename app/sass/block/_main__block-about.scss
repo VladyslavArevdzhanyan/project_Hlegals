@@ -9,6 +9,11 @@
         &:hover .main__block-about-title-svg g {
             opacity: 1;
         }
+        &:hover .main__block-about-title-svg {
+            transform: translateX(5px);
+            transition-duration: 2s;
+        }
+
         &-a {
             text-decoration: none;
             font-size: 14px;
@@ -22,6 +27,7 @@
             &:hover {
                 color: var(--red);
                 opacity: 1;
+                
             }
         }
     }
@@ -48,8 +54,10 @@
             align-items: center;
             color: var(--blue);
             padding-left: 10px;
+            max-width: 269px;
             &:hover {
                 color: var(--red);
+                transition-duration: 2s;
             }
         }
         &-block-2-p {

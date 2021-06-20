@@ -23,6 +23,7 @@
             text-transform: uppercase;
             &:hover {
                 color: var(--red);
+                transition-duration: 1s;
             }
             
         }
@@ -31,6 +32,7 @@
         }
         &-contacts-svg:hover path {
                 fill: var(--red);
+                transition-duration: 1s;
         }
         
         &-contacts-phone {
@@ -41,6 +43,7 @@
             margin-bottom: 20px;
             &:hover {
                 color: var(--red);
+                transition-duration: 1s;
             }
             
         }
@@ -52,6 +55,7 @@
             margin-bottom: 20px;
             &:hover {
                 color: var(--red);
+                transition-duration: 1s;
             }
         }
         &-rights-text {

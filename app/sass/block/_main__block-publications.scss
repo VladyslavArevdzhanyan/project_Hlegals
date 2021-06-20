@@ -14,10 +14,15 @@
             color: var(--blue);
             &:hover {
                 color:var(--red);
+                transition-duration: 1s;
             }
         }
         &:hover .main__block-publications-link-svg path {
             stroke: var(--red);
+        }
+        &:hover .main__block-publications-link-svg {
+            transform: translateX(5px);
+            transition-duration: 3s;
         }
     }
     &-p {
@@ -27,7 +32,7 @@
         color: var(--red);
     }
     &-examples {
-        padding-top: 40px;
+        padding-top: 27px;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
@@ -42,7 +47,7 @@
                 
             }
             &-2 {
-                padding: 20px;
+                padding: 15px 20px 20px;
                 &-link {
                     text-decoration: none;
                     font-weight: 500;
@@ -51,6 +56,7 @@
                     color: var(--blue);
                     &:hover {
                         color: var(--red);
+                        transition-duration: 1s;
                     }
                 }
                 &-p {
@@ -96,11 +102,13 @@
         text-align: center;
         color: var(--white);
         border: none;
-        margin: 40px 0;
+        margin-top: 33px;
+        margin-bottom: 38px;
         padding: 17px 75px;
         cursor: pointer;
         &:hover {
             background: var(--blue2);
+            transition-duration: 1s;
         }
         
     }

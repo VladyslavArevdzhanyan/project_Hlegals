@@ -26,6 +26,11 @@
         &:hover .main__block-team-slider-block-link-svg path {
             stroke: var(--red);
         }
+        &:hover .main__block-team-slider-block-link-svg {
+            transform: translateX(5px);
+            transition-duration: 3s;
+            
+        }
     }
     &-text {
         grid-column: 1 / -1;
@@ -54,6 +59,7 @@
         &:hover {
             background: var(--blue);
             opacity: 1;
+            transition-duration: 3s;
         }
         &.active {
             background: var(--blue);
