@@ -129,11 +129,6 @@
 }
 
 @media (min-width: 991px) {
-    .main__block-publications-examples {
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        margin-top: 11px;
-    }
     .main__block-publications {
         padding-top: 41px;
         &-p {
@@ -142,6 +137,10 @@
             line-height: 50px;
             padding-top: 5px;
         }
+        &-examples {
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            margin-top: 11px;
+        }
     }
 }
-
