@@ -1,7 +1,7 @@
 .main__block-background-color {
     background: linear-gradient(228.57deg, var(--gradient) 11.93%, var(--gradient) 57.17%, var(--gradient2) 87.46%);
     border-radius: 0px 0px 12px 12px;
-    position: relative;
+    position: relative;;
     &::after {
         content: "";
         position: absolute;
@@ -21,5 +21,11 @@
         border-radius: 0px 0px 12px 12px;
         bottom: -20px;
         left: 40px;
+    }
+}
+
+@media (min-width: 767px) {
+    .main__block-background-color {
+        padding-bottom: 20px;
     }
 }

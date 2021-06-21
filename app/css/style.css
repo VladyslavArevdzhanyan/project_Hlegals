@@ -574,6 +574,12 @@ body {
   left: 40px;
 }
 
+@media (min-width: 767px) {
+  .main__block-background-color {
+    padding-bottom: 20px;
+  }
+}
+
 .main__block-slider {
   padding-top: 44px;
 }
