@@ -29,7 +29,6 @@
         &:hover .main__block-team-slider-block-link-svg {
             transform: translateX(5px);
             transition-duration: 3s;
-            
         }
     }
     &-text {
@@ -58,8 +57,8 @@
         margin: 0 7px;
         &:hover {
             background: var(--blue);
-            opacity: 1;
-            transition-duration: 3s;
+            opacity: 0.6;
+            transition-duration: 1s;
         }
         &.active {
             background: var(--blue);
@@ -88,7 +87,6 @@
             }
         }
     }
-    
 }
 
 @media (min-width: 767px) {
@@ -128,6 +126,18 @@
         }
         &-about {
             padding-left: 0;
+        }
+    }
+}
+
+@media (min-width: 991px) {
+    .main__block-team-slider-block {
+        margin-top: 64px;
+        &-text-p {
+            font-weight: 700;
+            font-size: 42px;
+            line-height: 50px;
+            max-width: 800px;
         }
     }
 }

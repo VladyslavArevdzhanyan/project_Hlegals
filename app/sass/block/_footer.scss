@@ -24,17 +24,15 @@
             &:hover {
                 color: var(--red);
                 transition-duration: 1s;
-            }
-            
+            }  
         }
         &-contacts-svg {
             margin-bottom: 20px;
         }
         &-contacts-svg:hover path {
-                fill: var(--red);
-                transition-duration: 1s;
+            fill: var(--red);
+            transition-duration: 1s;
         }
-        
         &-contacts-phone {
             font-weight: 700;
             font-size: 16px;
@@ -45,7 +43,6 @@
                 color: var(--red);
                 transition-duration: 1s;
             }
-            
         }
         &-contacts-email {
             font-weight: 700;
@@ -126,7 +123,6 @@
             }
         }
     }
-
     .footer__menu-rights-text {
         max-width: 100%;
     }

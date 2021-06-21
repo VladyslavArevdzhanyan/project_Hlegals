@@ -13,7 +13,6 @@
             transform: translateX(5px);
             transition-duration: 2s;
         }
-
         &-a {
             text-decoration: none;
             font-size: 14px;
@@ -27,7 +26,6 @@
             &:hover {
                 color: var(--red);
                 opacity: 1;
-                
             }
         }
     }
@@ -46,6 +44,9 @@
         &-block-1 {
             display: flex;
             align-items: center;
+            &-img-large {
+                display: none;
+            }
         }
         &-block-1-a {
             text-decoration: none;
@@ -96,12 +97,40 @@
         font-size: 42px;
         line-height: 50px;
     }
-    
 }
 
 @media (min-width: 991px) {
     .main__block-about-us {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
+        padding-top: 62px;
+        row-gap: 60px;
+        &-block-1-img {
+            display: none;
+            &-large {
+                display: block;
+            }
+        }
+        &-block-1-a {
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+            max-width: 360px;
+        }
+        &-block-2-p {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 26px;
+            max-width: 404px;
+        }
+    }
+    .main__block-about {
+        padding-top: 75px;
+        &-h2 {
+            padding-top: 4px;
+            font-weight: 700;
+            font-size: 42px;
+            line-height: 50px;
+        }
     }
 }

@@ -808,6 +808,10 @@ body {
           align-items: center;
 }
 
+.main__block-about-us-block-1-img-large {
+  display: none;
+}
+
 .main__block-about-us-block-1-a {
   text-decoration: none;
   font-size: 18px;
@@ -874,6 +878,35 @@ body {
   .main__block-about-us {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    padding-top: 62px;
+    row-gap: 60px;
+  }
+  .main__block-about-us-block-1-img {
+    display: none;
+  }
+  .main__block-about-us-block-1-img-large {
+    display: block;
+  }
+  .main__block-about-us-block-1-a {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    max-width: 360px;
+  }
+  .main__block-about-us-block-2-p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    max-width: 404px;
+  }
+  .main__block-about {
+    padding-top: 75px;
+  }
+  .main__block-about-h2 {
+    padding-top: 4px;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
   }
 }
 
@@ -958,9 +991,9 @@ body {
 
 .main__block-team-slider-block-button:hover {
   background: var(--blue);
-  opacity: 1;
-  -webkit-transition-duration: 3s;
-          transition-duration: 3s;
+  opacity: 0.6;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
 }
 
 .main__block-team-slider-block-button.active {
@@ -1033,6 +1066,18 @@ body {
   }
 }
 
+@media (min-width: 991px) {
+  .main__block-team-slider-block {
+    margin-top: 64px;
+  }
+  .main__block-team-slider-block-text-p {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    max-width: 800px;
+  }
+}
+
 .main__block-examples {
   padding-top: 18px;
 }
@@ -1100,6 +1145,16 @@ body {
 }
 
 @media (min-width: 991px) {
+  .main__block-examples {
+    padding-top: 95px;
+  }
+  .main__block-examples-link-h3 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .main__block-examples-link-p {
+    padding-top: 20px;
+  }
   .main__block-examples-links {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -1360,7 +1415,7 @@ body {
   color: var(--white);
   border: none;
   margin-top: 33px;
-  margin-bottom: 38px;
+  margin-bottom: 58px;
   padding: 17px 75px;
   cursor: pointer;
 }
@@ -1392,6 +1447,16 @@ body {
   .main__block-publications-examples {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    margin-top: 11px;
+  }
+  .main__block-publications {
+    padding-top: 41px;
+  }
+  .main__block-publications-p {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    padding-top: 5px;
   }
 }
 

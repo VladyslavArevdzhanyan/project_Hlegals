@@ -37,9 +37,7 @@
                 width: 29px;
                 height: 24px;
                 transition-duration: 1s;
-            }
-
-            
+            } 
         }
         &-phone {
             text-decoration: none;
@@ -124,8 +122,7 @@
             }
         }      
         &-link-block-box {
-            display: flex;
-            
+            display: flex; 
         }
         &-link-crumb {
             text-decoration: none;
@@ -194,20 +191,19 @@
         &-phone {
             color: var(--white);
         }
-
         &-phone-block {
             padding-right: 30px;
             position: relative;
             &::after {
                 content: "";
-                    position: absolute;
-                    display: block;
-                    width: 6px;
-                    height: 6px;
-                    background: var(--white2);
-                    border-radius: 50%;
-                    top: 7px;
-                    right: 11px;
+                position: absolute;
+                display: block;
+                width: 6px;
+                height: 6px;
+                background: var(--white2);
+                border-radius: 50%;
+                top: 7px;
+                right: 11px;
             }
         }
         &-link-crumb {
@@ -255,5 +251,4 @@
             justify-self: flex-end;
         }
     }
-    
 }

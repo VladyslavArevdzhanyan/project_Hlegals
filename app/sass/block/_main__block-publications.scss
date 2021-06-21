@@ -87,7 +87,6 @@
             }
         } 
     }
-
     &-button {
         text-align: center;
     }
@@ -103,7 +102,7 @@
         color: var(--white);
         border: none;
         margin-top: 33px;
-        margin-bottom: 38px;
+        margin-bottom: 58px;
         padding: 17px 75px;
         cursor: pointer;
         &:hover {
@@ -133,6 +132,16 @@
     .main__block-publications-examples {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
+        margin-top: 11px;
+    }
+    .main__block-publications {
+        padding-top: 41px;
+        &-p {
+            font-weight: 700;
+            font-size: 42px;
+            line-height: 50px;
+            padding-top: 5px;
+        }
     }
 }
 
