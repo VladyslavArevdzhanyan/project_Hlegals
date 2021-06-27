@@ -1,4 +1,42 @@
 .header {
     padding-top: 20px;
     background: linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
+    &-background {
+        background: none;
+    }
+    &-background-image {
+        background: url(/img/services-background-mobile.png);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: contain;
+        width: 100%;
+        
+    }
+
+    &-background-color {
+        background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+        border-radius: 0px 0px 12px 12px;
+        position: relative;
+        &::after {
+            content: "";
+            position: absolute;
+            background: var(--grey2);
+            width: calc(100% - 40px);
+            height: 10px;
+            border-radius: 0px 0px 12px 12px;
+            bottom: -10px;
+            left: 20px;
+        }
+        &::before {
+            content: "";
+            position: absolute;
+            background: var(--white5);
+            width: calc(100% - 80px);
+            height: 10px;
+            border-radius: 0px 0px 12px 12px;
+            bottom: -20px;
+            left: 40px;
+        }
+    }
+    
 }

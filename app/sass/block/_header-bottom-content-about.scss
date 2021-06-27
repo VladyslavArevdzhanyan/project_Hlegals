@@ -1,0 +1,111 @@
+.header-bottom-content {
+    padding-top: 20px;
+    &-h2 {
+        font-size: 32px;
+        line-height: 38px;
+        color: #F0145A;
+        padding-top: 20px;
+    }
+    &-p {
+        font-size: 18px;
+        line-height: 26px;
+        color: #FFFFFF;
+        padding-top: 20px;
+    }
+    &-btn {
+        background: var(--blue);
+        box-shadow: 0px 0px 20px var(--darkblue4);
+        border-radius: 12px;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: var(--white);
+        border: none;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding: 17px 37px;
+        cursor: pointer;
+        &-block {
+            text-align: center;
+        }
+        &:hover {
+            background: var(--blue2);
+            transition-duration: 1s;
+        }
+        
+    }
+}
+.header-bottom-content-about {
+    border-top: 4px solid gray;
+    
+    &-h2 {
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+        padding-top: 20px;
+        font-weight: 400;
+    }
+    &-block{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        padding-top: 10px;
+        &-list-1-ul {
+            padding-left: 20px;
+            list-style: none;
+            position: relative;
+            list-style-image: url(/img/dot-sep.png);
+            &-li {
+                font-size: 18px;
+                line-height: 26px;
+                color: #FFFFFF;
+                padding-bottom: 20px;
+            }
+        }
+        &-list-2-ul {
+            padding-left: 20px;
+            list-style: none;
+            position: relative;
+            list-style-image: url(/img/dot-sep.png);
+            &-li {
+                font-size: 18px;
+                line-height: 26px;
+                color: #FFFFFF;
+                padding-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media (min-width: 767px) {
+    .header-bottom-content-about-h2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    
+    .header-bottom-content-about-block {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .header-bottom-content-h2 {
+        font-size: 42px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .header-bottom-content-p {
+        font-size: 21px;
+        line-height: 30px;
+        text-align: center;
+        max-width: 861px;
+        margin: 0 auto;
+    }
+    .header-bottom-content-img-block {
+        display: flex;
+        justify-content: center;
+    }
+    .header-bottom-content-btn {
+        margin: 40px 0 80px;
+    }
+}

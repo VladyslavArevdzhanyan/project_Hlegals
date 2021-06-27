@@ -5,6 +5,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -12,10 +13,18 @@ body {
     font-style: normal;
     font-weight: 400;
     min-width: 375px;
+    overflow-x: hidden;
 }
 
 .container {
     max-width: 1360px;
+    min-width: 375px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container-2 {
+    max-width: 1095px;
     min-width: 375px;
     margin: 0 auto;
     padding: 0 20px;

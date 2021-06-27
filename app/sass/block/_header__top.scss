@@ -133,6 +133,9 @@
             padding-left: 12px;
             &-box {
                 display: none;
+                &-services {
+                    display: block;
+                }
             }
             &-box::before {
                 position: absolute;
@@ -215,6 +218,9 @@
             padding-left: 15px;
             &-box {
                 display: none;
+                &-services {
+                    display: block;
+                }
             }
             &-box::before {
                 position: absolute;

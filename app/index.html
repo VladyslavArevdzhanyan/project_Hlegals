@@ -7,7 +7,11 @@
         <link rel="preload" href="../fonts/ttnorms-bold-webfont.woff2" as="font" type="font/woff2" crossorigin="anonymous">
         <link rel="preload" href="../fonts/ttnorms-medium-webfont.woff2" as="font" type="font/woff2" crossorigin="anonymous">
         <link rel="preload" href="../fonts/ttnorms-regular-webfont.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+        
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
         <link rel="stylesheet" href="css/style.css">
+        
         <title>Hlegals</title>
     </head>
     <body>   
@@ -174,7 +178,7 @@
             </div>
             <div id="03" class="main__block-team">
                 <div class="container">
-                    <div class="main__block-team-slider">
+                    <div class="main__block-team-slider js-slider">
                         <div class="main__block-team-slider-block">
                             <div class="main__block-team-slider-block-link">
                                 <a class="main__block-team-slider-block-link-a" href="our-team.html">команда</a>
@@ -194,17 +198,44 @@
                                 <p class="main__block-team-slider-block-person-about-p">Керуючий партнер</p>
                             </div>                        
                         </div>
-                        <ul class="main__block-team-slider-block-buttons">
-                            <li>
-                                <button class="main__block-team-slider-block-button active"></button>
-                            </li>
-                            <li>
-                                <button class="main__block-team-slider-block-button"></button>
-                            </li>
-                            <li>
-                                <button class="main__block-team-slider-block-button"></button>
-                            </li>
-                        </ul>
+                        <div class="main__block-team-slider-block">
+                            <div class="main__block-team-slider-block-link">
+                                <a class="main__block-team-slider-block-link-a" href="our-team.html">команда</a>
+                                <svg class="main__block-team-slider-block-link-svg" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.5 1.5L8 6L3.5 10.5" stroke="#24A3FF" stroke-width="2"/></svg>
+                            </div>
+                            <div class="main__block-team-slider-block-text">
+                                <p class="main__block-team-slider-block-text-p">Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.</p>
+                            </div>
+                            <div class="main__block-team-slider-block-person">
+                                <picture>
+                                    <source media="(min-width: 767px)" srcset="img/man.jpg 1x, img/man@2x.jpg 2x"> 
+                                    <img class="main__block-team-slider-block-person-img" src="img/man-little.png" srcset="img/man-little@2x.png 2x" alt="man">
+                                </picture>
+                            </div>                                                 
+                            <div class="main__block-team-slider-block-person-about">
+                                <h3 class="main__block-team-slider-block-person-about-h3">Олександр Кац</h3>
+                                <p class="main__block-team-slider-block-person-about-p">Керуючий партнер</p>
+                            </div>                        
+                        </div>   
+                        <div class="main__block-team-slider-block">
+                            <div class="main__block-team-slider-block-link">
+                                <a class="main__block-team-slider-block-link-a" href="our-team.html">команда</a>
+                                <svg class="main__block-team-slider-block-link-svg" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.5 1.5L8 6L3.5 10.5" stroke="#24A3FF" stroke-width="2"/></svg>
+                            </div>
+                            <div class="main__block-team-slider-block-text">
+                                <p class="main__block-team-slider-block-text-p">Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.</p>
+                            </div>
+                            <div class="main__block-team-slider-block-person">
+                                <picture>
+                                    <source media="(min-width: 767px)" srcset="img/man.jpg 1x, img/man@2x.jpg 2x"> 
+                                    <img class="main__block-team-slider-block-person-img" src="img/man-little.png" srcset="img/man-little@2x.png 2x" alt="man">
+                                </picture>
+                            </div>                                                 
+                            <div class="main__block-team-slider-block-person-about">
+                                <h3 class="main__block-team-slider-block-person-about-h3">Олександр Кац</h3>
+                                <p class="main__block-team-slider-block-person-about-p">Керуючий партнер</p>
+                            </div>                        
+                        </div>      
                     </div>
                 </div>
             </div>
@@ -388,5 +419,13 @@
             </div>
         </div>
     </footer>
+
+
+<script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+<script src="slick/slick.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html> 

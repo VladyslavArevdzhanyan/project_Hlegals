@@ -1,5 +1,9 @@
 .main__block-examples {
     padding-top: 18px;
+    &-services {
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
     &-links {
         display: grid;
         grid-template-columns: 1fr;
