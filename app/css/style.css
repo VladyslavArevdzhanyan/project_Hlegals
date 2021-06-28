@@ -149,6 +149,25 @@ body {
   left: 40px;
 }
 
+@media (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) and (min-resolution: 1.5dppx) {
+  .header-background-image {
+    background: url(/img/services-background-mobile@2x.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+    width: 100%;
+  }
+}
+
+@media (min-width: 767px) {
+  .header-background-image {
+    background: url(/img/services-background-large.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+  }
+}
+
 .header__top {
   display: grid;
   grid-template-columns: 1fr 30px;
