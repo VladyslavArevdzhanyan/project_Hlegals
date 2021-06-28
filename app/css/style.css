@@ -109,6 +109,10 @@ body {
   background: linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
 }
 
+.header-about-white {
+  background: #FFFFFF;
+}
+
 .header-background {
   background: none;
 }
@@ -315,6 +319,11 @@ body {
   text-decoration: underline;
 }
 
+.header__top-menu-link.current-page-about-white {
+  text-decoration: underline;
+  color: var(--red);
+}
+
 .header__top-menu-link:hover {
   color: var(--red);
   -webkit-transition-duration: 1s;
@@ -348,6 +357,10 @@ body {
   display: block;
 }
 
+.header__top-link-crumb-box-about {
+  display: block;
+}
+
 .header__top-link-crumb-box::before {
   position: absolute;
   content: "";
@@ -364,6 +377,10 @@ body {
   height: 25px;
 }
 
+.header__top-link-crumb-about-white {
+  color: #323264;
+}
+
 @media (min-width: 767px) {
   .header__top {
     grid-template-columns: 100px 1fr 1fr 1fr;
@@ -377,8 +394,16 @@ body {
     padding-right: 30px;
     color: var(--white);
   }
+  .header__top-adress-block-about-white {
+    color: var(--grey);
+  }
   .header__top-link-fb-block {
     display: block;
+  }
+  .header__top-link-fb-block-about-white:hover path {
+    fill: #24A3FF;
+    -webkit-transition-duration: 1s;
+            transition-duration: 1s;
   }
   .header__top-menu-block {
     display: block;
@@ -401,10 +426,19 @@ body {
     padding-right: 30px;
   }
   .header__top-language-btn {
+    color: var(--grey);
+  }
+  .header__top-language-btn.active-btn-about-white {
+    color: var(--white);
+  }
+  .header__top-language-btn:hover {
     color: var(--white);
   }
   .header__top-phone {
     color: var(--white);
+  }
+  .header__top-phone-about-white {
+    color: var(--grey);
   }
   .header__top-phone-block {
     padding-right: 30px;
@@ -435,6 +469,9 @@ body {
   .header__top-link-crumb-box-services {
     display: block;
   }
+  .header__top-link-crumb-box-about {
+    display: block;
+  }
   .header__top-link-crumb-box::before {
     position: absolute;
     content: "";
@@ -448,6 +485,15 @@ body {
     background: url(../img/symbol-slash.svg) no-repeat;
     width: 41px;
     height: 49px;
+  }
+  .header__top-link-crumb-about-white {
+    color: #323264;
+  }
+  .header__top-menu-link-about-white {
+    color: #24A3FF;
+  }
+  .header__top-menu-link-about-white.current-page-about-white {
+    text-decoration: underline;
   }
 }
 
@@ -463,7 +509,7 @@ body {
   }
   .header__top-link-block-box {
     grid-row: 1 / -1;
-    grid-column: 1 / 2;
+    grid-column: 1 / 3;
   }
   .header__top-menu-block {
     grid-column: 3 / -1;
