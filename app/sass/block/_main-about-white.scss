@@ -47,9 +47,10 @@
 
 @media (min-width: 767px) {
     .main-about-white-top {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr minmax(350px, 412px);
         grid-template-rows: 1fr;
         column-gap: 40px;
+        padding-top: 80px;
         &-block-2 {
             border-top: none;
             padding-top: 0;
@@ -65,5 +66,16 @@
                 top: 6px;
             }
         }
+    }
+}
+
+@media (min-width: 991px) {
+    .main-about-white-top-block-1-h2 {
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .main-about-white-top-block-1-p {
+        font-size: 21px;
+        line-height: 30px;
     }
 }
