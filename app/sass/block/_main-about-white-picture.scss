@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(/img/team.jpg);
+    background: url(../img/team.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     width: 100%;
@@ -24,7 +24,7 @@
 
 @media (min-resolution: 144dpi) and (min-resolution: 1.5dppx) {
     .main-about-white-picture {
-        background: url(/img/team@2x.jpg);
+        background: url(../img/team@2x.jpg);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -34,7 +34,7 @@
 
 @media (min-width: 767px) {
     .main-about-white-picture {
-        background: url(/img/team-large.jpg);
+        background: url(../img/team-large.jpg);
         background-repeat: no-repeat;
         background-position: center center;
         width: 100%;
