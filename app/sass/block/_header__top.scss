@@ -24,7 +24,7 @@
             &.active-btn {
                 background: var(--red);
                 border-radius: 8px;
-                color: var (--white);
+                color: var(--white);
                 &:hover {
                     background: var(--red);
                     border-radius: 8px;
@@ -161,7 +161,7 @@
                 height: 25px;
             }
             &-about-white {
-                color: #323264
+                color: var(--gradient);
             }  
         } 
     }
@@ -185,7 +185,7 @@
         &-link-fb-block {
             display: block;
             &-about-white:hover path{
-                fill: #24A3FF;
+                fill: var(--blue);
                 transition-duration: 1s;
             }
         }
@@ -268,11 +268,11 @@
                 height: 49px;
             }
             &-about-white {
-                color: #323264
+                color: var(--gradient);
             }   
         }
         &-menu-link-about-white {
-            color: #24A3FF;
+            color: var(--blue);
             &.current-page-about-white {
                 text-decoration: underline;
             }

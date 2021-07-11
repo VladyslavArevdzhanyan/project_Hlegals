@@ -105,11 +105,30 @@
         margin-bottom: 58px;
         padding: 17px 75px;
         cursor: pointer;
+        position: relative;
         &:hover {
             background: var(--blue2);
             transition-duration: 1s;
         }
-        
+        &::after {
+            position: absolute;
+            display: none;
+            content: "";
+            background: url(../img/ellipse.svg) no-repeat;
+            width: 31px;
+            height: 31px;
+            left: 45%;
+            top: 20%;
+            animation-name: circle;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+        } 
+    }
+}
+
+@keyframes circle {
+    100% {
+        transform: rotate(360deg);
     }
 }
 

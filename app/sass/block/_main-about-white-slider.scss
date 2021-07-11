@@ -1,5 +1,5 @@
 .main-about-white-slider {
-    background-color: #F5F5FA;
+    background-color: var(--white4);
     border-radius: 12px 12px 0px 0px;
     padding-top: 30px;
     &-h2 {
@@ -9,17 +9,17 @@
         text-align: center;
         letter-spacing: 1px;
         text-transform: uppercase;
-        color: #323264;
+        color: var(--gradient);
         padding-bottom: 30px;
     }
     &-block {
         padding-bottom: 30px;
-        background-color: #F5F5FA;
+        background-color: var(--white4);
         &-item {
             display: flex;
             justify-content: center;
             padding: 13px 0px;
-            background: #FFFFFF;
+            background: var(--white);
             border-radius: 12px;
             &-img-1 {
                 width: 42px;
